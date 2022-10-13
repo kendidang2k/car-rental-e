@@ -1220,6 +1220,9 @@ body::-webkit-scrollbar-thumb {
 
 .main__tabs li {
   padding: 10px 20px 0 20px;
+}
+
+.home .main__tabs li {
   border-right: 1px solid #fff;
 }
 
@@ -1782,7 +1785,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-around;
   }
 
-  .main__tabs li {
+  .home .main__tabs li {
     padding: 10px 10px 0 10px;
   }
 }
