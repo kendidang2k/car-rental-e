@@ -1761,6 +1761,30 @@ body::-webkit-scrollbar-thumb {
     display: block !important;
     opacity: 1 !important;
   }
+
+  .cover__searchbox {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cover__searchbox .col-12 {
+    padding: 0;
+  }
+
+  .home__search {
+    border-top-right-radius: 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .home__content .main__tabs {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main__tabs li {
+    padding: 10px 10px 0 10px;
+  }
 }
 
 
